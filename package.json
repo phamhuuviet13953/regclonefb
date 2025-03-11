@@ -1,0 +1,16 @@
+{
+  "name": "android-control-app",
+  "version": "1.0.0",
+  "description": "Ứng dụng điều khiển thiết bị Android nâng cao",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . \"Android Control\" --platform=win32 --arch=x64 --out=dist --asar --overwrite"
+  },
+  "dependencies": {
+    "electron": "^29.4.6"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}
